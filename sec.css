@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: #1e1f20;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+main {
+  color: white;
+  background-color: #0e0e0e;
+  display: flex;
+  border-radius: 20px;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+main img {
+  width: 40px;
+  object-fit: cover;
+}
+
+.tall {
+  font-size: 30px;
+}
+
+a {
+  color: #a8c7fa;
+  text-decoration: none;
+}
+
+.login input {
+  background: none;
+  border: solid;
+  border-radius: 5px;
+  outline: none;
+  width: 350px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+}
+
+::placeholder {
+  color: white;
+  font-size: 12px;
+}
+
+.main_button1 {
+  color: #a8c7fa;
+  background: none;
+  text-decoration: none;
+  border: none;
+  border-radius: 10em;
+  padding: 12px;
+  margin-top: 15%;
+  margin-left: 3%;
+}
+.main_button2 {
+  background-color: #a8c7fa;
+  text-decoration: none;
+  border: none;
+  border-radius: 10em;
+  padding: 10px;
+  margin-top: 15%;
+  margin-left: 3%;
+  width: 25%;
+}
+
+.left_main {
+  flex: 1;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.right_main {
+  flex: 1;
+  margin-top: 13%;
+  margin-right: 5%;
+}
+
+.under_right_main {
+  font-size: 12px;
+  margin-top: 10%;
+}
+
+.a_margin {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.right_button_main {
+  display: flex;
+  align-items: end;
+}
